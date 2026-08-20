@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Himanshi Flights</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">✈️ Himanshi Flights</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="flights.html">Flights</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="page-hero">
+    <h1>Contact Us</h1>
+    <p>We are here to help with your travel requirements.</p>
+</section>
+
+<section class="contact-section">
+
+    <div class="contact-info">
+
+        <h2>Business Information</h2>
+
+        <p>
+            👩‍💼 <strong>Owner:</strong><br>
+            Himanshi Sharma
+        </p>
+
+        <p>
+            📅 <strong>Established:</strong><br>
+            1992
+        </p>
+
+        <p>
+            📞 <strong>Phone:</strong><br>
+            <a href="tel:9785770641">9785770641</a>
+        </p>
+
+        <p>
+            📍 <strong>Address:</strong><br>
+            Chhirr Balaji Dham,<br>
+            Jaipur, Rajasthan, India
+        </p>
+
+        <a
+            class="whatsapp-btn"
+            href="https://wa.me/919785770641"
+            target="_blank"
+        >
+            💬 WhatsApp Us
+        </a>
+
+    </div>
+
+    <div class="contact-form">
+
+        <h2>Send a Message</h2>
+
+        <form onsubmit="sendMessage(event)">
+
+            <input
+                type="text"
+                id="contactName"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="tel"
+                id="contactPhone"
+                placeholder="Phone Number"
+                required
+            >
+
+            <input
+                type="email"
+                id="contactEmail"
+                placeholder="Email"
+                required
+            >
+
+            <textarea
+                id="contactMessage"
+                rows="6"
+                placeholder="Your message"
+                required
+            ></textarea>
+
+            <button type="submit">
+                Send on WhatsApp
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Himanshi Flights. All Rights Reserved.</p>
+</footer>
+
+<script src="style.js"></script>
+</body>
+</html>
