@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking - Himanshi Flights</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">✈️ Himanshi Flights</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="flights.html">Flights</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="page-hero">
+    <h1>Flight Booking</h1>
+    <p>Send us your travel requirements.</p>
+</section>
+
+<section class="booking-section">
+
+    <form class="booking-form" onsubmit="submitBooking(event)">
+
+        <h2>Passenger Details</h2>
+
+        <input
+            type="text"
+            id="passengerName"
+            placeholder="Full Name"
+            required
+        >
+
+        <input
+            type="tel"
+            id="passengerPhone"
+            placeholder="Phone Number"
+            required
+        >
+
+        <input
+            type="email"
+            id="passengerEmail"
+            placeholder="Email Address"
+            required
+        >
+
+        <input
+            type="text"
+            id="bookingFrom"
+            placeholder="From"
+            required
+        >
+
+        <input
+            type="text"
+            id="bookingTo"
+            placeholder="To"
+            required
+        >
+
+        <input
+            type="date"
+            id="bookingDate"
+            required
+        >
+
+        <select id="bookingPassengers">
+            <option>1 Passenger</option>
+            <option>2 Passengers</option>
+            <option>3 Passengers</option>
+            <option>4 Passengers</option>
+            <option>5 Passengers</option>
+        </select>
+
+        <button type="submit">
+            Send Booking Request
+        </button>
+
+    </form>
+
+</section>
+
+<footer>
+    <p>© 2026 Himanshi Flights. All Rights Reserved.</p>
+</footer>
+
+<script src="style.js"></script>
+</body>
+</html>
